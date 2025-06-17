@@ -52,5 +52,5 @@ python src/main.py --data ./data/SYNTHETIC/synthetic_comprisk.csv --durations 16
   ```
 
 - **All Censored Observations**  
-  If all observations are censored, there is no direct information on event-time distributions—only that events exceed the last follow-up.  
+  If all observations are censored, there is no direct information on event-time distributions, only that events exceed the last follow-up.  
   In this case, neither nonparametric nor semiparametric methods can estimate survival beyond confirming it remains at 1 until the last censoring time.
